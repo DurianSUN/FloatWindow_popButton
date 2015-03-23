@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <floatingactionbutton.FloatingActionsMenu
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="normal"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="right" >
+
+        <floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/deleteicon"
+            fab:fab_colorNormal="@color/white"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/app_complete" />
+
+        <floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/blue_semi_transparent"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/app_cancle" >
+        </floatingactionbutton.FloatingActionButton>
+
+        <floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/blue_semi_transparent"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/app_screen" >
+        </floatingactionbutton.FloatingActionButton>
+
+        <floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/blue_semi_transparent"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/app_shot" >
+        </floatingactionbutton.FloatingActionButton>
+
+        <floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/blue_semi_transparent"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/home" >
+        </floatingactionbutton.FloatingActionButton>
+    </floatingactionbutton.FloatingActionsMenu>
+
+</LinearLayout>
